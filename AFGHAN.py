@@ -600,7 +600,7 @@ def main():
     print(f"\033[1;97m[00] \033[1;92mEXIT ")
     print('\033[1;32m--------------------------------------------------------------') 
     mirwais = input("\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m SELECT \033[1;37m: \033[1;36m")
-    elif mirwais in ["1","01"]: 
+    if mirwais in ["1","01"]: 
          os.system("xdg-open https://fastlog.org/MTImYW1wO2k9MTYxNzkz")
     elif mirwais in ["2","02"]: 
          os.system("xdg-open https://fastlog.org/MjQmYW1wO2k9MTYxNzkz") 
