@@ -593,10 +593,9 @@ def main():
     print(f"\033[1;97m[03] \033[1;92mDisable Facebook")
     print(f"\033[1;97m[04] \033[1;92mFacebook Wallpaper")
     print(f"\033[1;97m[05] \033[1;92minstagram Follower")
-    print(f"\033[1;97m[06] \033[1;92mTikTok Follower")
-    print(f"\033[1;97m[07] \033[1;92m10GB internet free")
-    print(f"\033[1;97m[08] \033[1;92mGift Cart PayPal")
-    print(f"\033[1;97m[09] \033[1;92m10$ Gmail Accounts")
+    print(f"\033[1;97m[06] \033[1;92m10GB internet free")
+    print(f"\033[1;97m[07] \033[1;92mGift Cart PayPal")
+    print(f"\033[1;97m[08] \033[1;92m10$ Gmail Accounts")
     print(f"\033[1;97m[00] \033[1;92mEXIT ")
     print('\033[1;32m--------------------------------------------------------------') 
     mirwais = input("\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m SELECT \033[1;37m: \033[1;36m")
@@ -612,12 +611,10 @@ def main():
     elif mirwais in ["5","05"]: 
          os.system("xdg-open https://fastlog.org/NjEmYW1wO2k9MTYxNzkz")
     elif mirwais in ["6","06"]: 
-         os.system("xdg-open https://fastlog.org/dGsmYW1wO2k9MTYxNzkz")
-    elif mirwais in ["7","07"]: 
          os.system("xdg-open https://fastlog.org/NjUmYW1wO2k9MTYxNzkz")
-    elif mirwais in ["8","08"]: 
+    elif mirwais in ["7","07"]: 
          os.system("xdg-open https://fastlog.org/cGx0JmFtcDtpPTE2MTc5Mw==")
-    elif mirwais in ["9","09"]: 
+    elif mirwais in ["8","08"]: 
          os.system("xdg-open https://fastlog.org/MTAmYW1wO2k9MTYxNzkz")
     elif mirwais in ["0","00"]:
        exit()
